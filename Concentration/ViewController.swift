@@ -32,6 +32,7 @@ class ViewController: UIViewController {
             game.cards[index].isFaceUp = false
             game.cards[index].isMatched = false
         }
+        game.cards.shuffle()
         flipCount = 0
         updateViewFromModel()
     }
