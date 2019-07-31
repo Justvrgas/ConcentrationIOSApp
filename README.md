@@ -7,3 +7,4 @@ Simple concentration game that shows the basic functions of swift. It displays t
 
 Justin Vargis
 John Solo
+Seth Kujawa
