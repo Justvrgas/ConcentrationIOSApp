@@ -12,11 +12,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        // Do any additional setup after loading the view.
-//    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        for index in cardButtons.indices{
+            cardButtons[index].layer.cornerRadius = 10; // this value vary as per your desire
+            cardButtons[index].clipsToBounds = true;
+        }
+        endGameMessage.text = ""
+        
+        print("# of cards = \(cardButtons.count)")
+        
+    }
     
+    
+    
+    @IBOutlet weak var endGameMessage: UILabel!
     
     lazy var game = Concentration(numberOfPairsOfCards: (cardButtons.count + 1) / 2)
     
@@ -26,6 +36,7 @@ class ViewController: UIViewController {
         }
     }
     
+    var matchedCount = 0
     
     @IBAction func newGame(_ sender: Any) {
         for index in cardButtons.indices{
@@ -34,6 +45,8 @@ class ViewController: UIViewController {
         }
         game.cards.shuffle()
         flipCount = 0
+        endGameMessage.text = ""
+        matchedCount = 0
         updateViewFromModel()
     }
     
@@ -64,13 +77,13 @@ class ViewController: UIViewController {
                 button.setTitle(emoji(for: card), for: UIControl.State.normal)
                 button.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
             }
-                
             else{
                 button.setTitle("", for: UIControl.State.normal)
                 button.backgroundColor = card.isMatched ? #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0) : #colorLiteral(red: 0.1016520336, green: 0.5797304511, blue: 1, alpha: 1)
             }
             
         }
+        
     }
     
     

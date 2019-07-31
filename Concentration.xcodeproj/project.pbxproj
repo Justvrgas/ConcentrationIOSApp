@@ -17,6 +17,9 @@
 		C758FFEA22EFD5F200F0F1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C758FFE822EFD5F200F0F1A3 /* LaunchScreen.storyboard */; };
 		C758FFF522EFD5F200F0F1A3 /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C758FFF422EFD5F200F0F1A3 /* ConcentrationTests.swift */; };
 		C75BDE5E22F1CD9F00B9C7FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C75BDE5D22F1CD9F00B9C7FD /* GoogleService-Info.plist */; };
+		C7FD2E2122F2071F00AFD2E8 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FD2E2022F2071F00AFD2E8 /* MainScreenViewController.swift */; };
+		C7FD2E2322F207A300AFD2E8 /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FD2E2222F207A300AFD2E8 /* EnterNameViewController.swift */; };
+		C7FD2E2522F20AE700AFD2E8 /* LeaderboardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FD2E2422F20AE700AFD2E8 /* LeaderboardsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		C758FFFB22EFD5F200F0F1A3 /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C758FFFF22EFD5F200F0F1A3 /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
 		C75BDE5D22F1CD9F00B9C7FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C7FD2E2022F2071F00AFD2E8 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		C7FD2E2222F207A300AFD2E8 /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
+		C7FD2E2422F20AE700AFD2E8 /* LeaderboardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				C758FFE322EFD5F000F0F1A3 /* Main.storyboard */,
+				C7FD2E2422F20AE700AFD2E8 /* LeaderboardsViewController.swift */,
+				C7FD2E2222F207A300AFD2E8 /* EnterNameViewController.swift */,
+				C7FD2E2022F2071F00AFD2E8 /* MainScreenViewController.swift */,
 				C758FFE122EFD5F000F0F1A3 /* ViewController.swift */,
 				C758000E22EFE75400F0F1A3 /* Concentration.swift */,
 				C758001022EFE8EC00F0F1A3 /* Card.swift */,
@@ -274,6 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FD2E2522F20AE700AFD2E8 /* LeaderboardsViewController.swift in Sources */,
+				C7FD2E2322F207A300AFD2E8 /* EnterNameViewController.swift in Sources */,
+				C7FD2E2122F2071F00AFD2E8 /* MainScreenViewController.swift in Sources */,
 				C758FFE222EFD5F000F0F1A3 /* ViewController.swift in Sources */,
 				C758FFE022EFD5F000F0F1A3 /* AppDelegate.swift in Sources */,
 				C758000F22EFE75500F0F1A3 /* Concentration.swift in Sources */,
