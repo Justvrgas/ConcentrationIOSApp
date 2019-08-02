@@ -5,6 +5,4 @@ Simple concentration game that shows the basic functions of swift. It displays t
 
 ## Contributers 
 
-Justin Vargoos
-John Solo
-Seth Kujawa
+Justin Vargas
